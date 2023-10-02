@@ -188,12 +188,13 @@ a {
 
 button {
     background-color: #ffffff;
+    width: 12vw;
+    height: 3.5vw;
     border: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    padding: 2vh 2vw 2vh 2vw;
-    outline: 2px solid black;
-    border-radius: 5px;
+    outline: 0.15vw solid black;
+    border-radius: 0.2vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -210,7 +211,7 @@ button {
 
 #inProgess {
     color: rgb(168, 168, 168);
-    outline: 2px solid rgb(168, 168, 168);
+    outline: 0.15vw solid rgb(168, 168, 168);
     cursor: default;
 }
 
