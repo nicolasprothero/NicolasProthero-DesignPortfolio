@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'DMSans';
+    src: url('fonts/DMSans-VariableFont_opsz,wght.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DMSans';
+    src: url('fonts/DMSans-VariableFont_opsz,wght.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    font-family: "DMSans";
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: "trumpsoftpro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8vw;
+    margin: 0px;
+    position: absolute;
+}
+
+h2 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.5vw;
+}
+
+h3 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.2vw;
+}
+
+h4 {
+    margin: 0px;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+
+header {
+    position: sticky;
+    padding: 1.5vh 0vw 1vh 0vw;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+#logoIcon {
+    width: 3vw;
+    height: 3vw;
+}
+
+#wholePage {
+    padding: 0vh 3vw 0vh 3vw;
+}
+
+#contactText {
+    margin: 0px;
+    font-size: 1.2vw;
+    font-weight: normal;
+    text-decoration: none;
+    color: inherit
+}
+
+#bannerImage {
+    width: 80vw;
+    display: block;
+    margin: auto;
+}
+
+#frontPage {
+    padding: 0vh 2vw 1vh 2vw;
+    margin: auto;
+    scale: 93%;
+}
+
+#aroundImage {
+    height: 10vh;
+    padding: 0vh 2vw 1vh 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#aroundImageBottom {
+    height: 10vh;
+    padding: 2vh 7vw 1vh 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#onLeft {
+    width: 50vw;
+}
+
+#onRight {
+    width: 30vw;
+}
+
+#onLeftBottom {
+    width: 35vw;
+}
+
+#onMiddleBottom {
+    width: 20vw;
+    text-align: right;
+}
+
+#onRightBottom {
+    width: 10vw;
+    text-align: right;
+}
+
+#workPage {
+    padding: 5vh 5vw 5vh 5vw;
+    scale: 93%;
+}
+
+#workLeft {
+    padding: 5vh 5vw 5vh 5vw;
+    display: flex;
+}
+
+#workRight {
+    padding: 5vh 5vw 5vh 5vw;
+    display: flex;
+    justify-content: right;
+}
+
+#workImage {
+    width: 35vw;
+    height: 25vw;
+}
+
+#frame {
+    width: 35vw;
+    height: 25vw;
+    position: absolute;
+}
+
+#workInformation {
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+#workTitle {
+    font-family: "trumpsoftpro", sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+#moreWorkTitle {
+    font-family: "trumpsoftpro", sans-serif;
+    margin: 10vh 0vw 2vh 0vw;
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#workTopics {
+    font-size: 1.2vw;
+}
+
+#workText {
+    padding: 3vh 0vw 3vh 0vw;
+    font-size: 1.2vw;
+}
+
+#footerPage {
+    bottom: 0;
+    padding:  3vh 3vw 3vh 3vw;
+    text-align: center;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 2vh 2vw 2vh 2vw;
+    outline: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 1vh 0vw 1vh 0vw;
+    cursor: pointer;
+}
+
+#workingButton:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    outline: none;
+}
+
+#inProgess {
+    color: rgb(168, 168, 168);
+    outline: 2px solid rgb(168, 168, 168);
+    cursor: default;
+}
+
+#projectHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 5vw 2vh 5vw;
+}
+
+#projectImportantText {
+    position: relative;
+    font-size: 200%;
+    padding: 5vh 5vw 0vh 5vw;
+}
+
+#projectTitle {
+    width: 50vw;
+}
+
+#projectInformation {
+    width: 50vw;
+    position: relative;
+}
+
+#projectText {
+    padding: 2vh 2vw 2vh 2vw;
+    position: absolute;
+    bottom: 0;
+    vertical-align: bottom;
+    font-size: 100%;
+}
+
+#projectLeft {
+    display: flex;
+    margin: 5vh 5vw 5vh 5vw;
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+#projectLargeImage {
+    width: 80vw;
+    margin: 5vh auto 5vh auto;
+    display: block;
+}
+
+#projectSmallImage {
+    width: 25vw;
+    height: 25vw;
+}
+
+#projectSmallText {
+    padding: 5vh 5vw 5vh 5vw;
+    font-size: inherit;
+}
+
+#projectLargeText {
+    width: 50%;
+    margin: 7vh auto 7vh auto;
+    font-size: inherit;
+}
