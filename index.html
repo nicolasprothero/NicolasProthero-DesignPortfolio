@@ -26,22 +26,22 @@
             <section id="frontPage">
                 <div id="aroundImage">
                     <span id="onLeft">
-                        <h2>hi there im</h2>
-                        <h1>NIC HASE PROTHERO</h1>
+                        <h2 id="smallHi">hi there im</h2>
+                        <h1 id="bigName">NICOLAS HASE PROTHERO</h1>
                     </span>
                     <span id="onRight">
-                        <h2>i am a web designer, graphic designer, illustrator, and <a href="https://nicolasprothero.com/" target="_blank"><u>frontend developer.</u></a></h2>
+                        <h2 id="smallIntro">i am a web designer, graphic designer, illustrator, and <a href="https://nicolasprothero.com/" target="_blank"><u>frontend developer.</u></a></h2>
                     </span>
                 </div>
                 <img src="img/BannerOct23.png" id="bannerImage">
                 <div id="aroundImageBottom">
                     <span id="onLeftBottom">
                         <h2><b>about</b></h2>
-                        <h3>Nic Prothero is an artist currently studying <b>graphic design</b> and <b>computer science</b> at the University of Florida. He loves traveling, making art, and taking care of his houseplants.</h3>
+                        <h3>Nicolas is an artist currently studying <b>graphic design</b> and <b>computer science</b> at the University of Florida. He loves traveling, making art, and taking care of his houseplants.</h3>
                     </span>
                     <span id="onMiddleBottom">
                         <h2><b>currently located</b></h2>
-                        <h4>Gainesville, FL, USA</h4>
+                        <h4><i>Gainesville, FL, USA</i></h4>
                     </span>
                     <span id="onRightBottom">
                         <h2><b>some links</b></h2>
@@ -51,101 +51,146 @@
                     </span>
                 </div>
             </section>
-            <section id="workPage">
-                <h1 style="position:relative">DESIGN WORK</h1>
-                <div id="workLeft">
-                    <img src="/img/daikon.png" id="workImage">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">DAIKON, 2023</h3>
-                        <h2 id ="workTopics">GRAPHIC DESIGN, ILLUSTRATION, WEB DEVELOPMENT</h2>
-                        <h2 id ="workText"><b>Daikon</b> is a collection of brand identity, illustration, web design, graphic design, and frontend development projects that revolve around the fictional company Daikon Electronics.<br><br>This project is currently in development. Check back for updates.</h2>
-                        <button id="inProgess">IN PROGRESS</button>
+            <div class="desktopWork">
+                <section id="workPage">
+                    <h1 style="position:relative">WEB DEV WORK</h1>
+                    <div id="workLeft">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/programming.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">WEB DEV PORTFOLIO, 2022</h3>
+                            <h2 id ="workTopics">HTML, CSS, JAVASCRIPT, ILLUSTRATION</h2>
+                            <h2 id ="workText"><b>nicolasprothero.com</b> is a website made using HTML, CSS, and some JavaScript, used to showcase my web development and personal programming projects. It features a comforting design with original illustrations that change to reflect the information that the user is hovering over.</h2>
+                            <a href="https://nicolasprothero.com/" target="_blank"><button id="workingButton">VISIT SITE</button></a>
+                        </div>
                     </div>
-                </div>
-                <div id="workRight">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">PILEA, 2022</h3>
-                        <h2 id ="workTopics">GRAPHIC DESIGN, UI/UX, APP DESIGN</h2>
-                        <h2 id ="workText"><b>Pilea</b> is a plant care app prototype created in Adobe XD. The app allows houseplant owners to add their plants and get reminded when and how they should be cared for. The design utilizes original iconography and illustrations to create a stress-free environment for a sometimes forgetful task.</h2>
-                        <a href="/projects/pilea.html"><button id="workingButton">VIEW PROJECT</button></a>
+                    <div id="workRight">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">SPROUT SHOOTER, 2022</h3>
+                            <h2 id ="workTopics"> JAVSCRIPT, HTML, CSS</h2>
+                            <h2 id ="workText"><b>Sprout Shooter</b> is a web game, coded entirely in Javascript and HTML/CSS, that can be played on a web browser. All original hand drawn sprites and images. Features a functioning score, level, and sharing feature.</h2>
+                            <a href="https://sproutshooter.com/" target="_blank"><button id="workingButton">VISIT SITE</button></a>
+                        </div>
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/sproutShooter.png" id="workImage">
                     </div>
-                    <img src="img/frame.png" id="frame">
-                    <img src="img/pilea.png" id="workImage">
-                </div>
-                <div id="workLeft">
-                    <img src="img/frame.png" id="frame">
-                    <img src="img/talkGT.png" id="workImage">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">TALKGT LOGO, 2022</h3>
-                        <h2 id ="workTopics">LOGO DESIGN, GRAPHIC DESIGN</h2>
-                        <h2 id ="workText"><b>TalkGT.com</b> is a communication website that allows Georgia Tech students to submit posts and requests online. The logo which blends both the school's mascot, Buzz and a message bubble was created to embody the purpose of the website.</h2>
-                        <a href="/projects/talkGT.html"><button id="workingButton">VIEW PROJECT</button></a>
+                    <!-- <a href="/webdev.html"><h3 id = "moreWorkTitle">ARCHIVED WEB DEV WORK</h3></a> -->
+                </section>
+                <section id="workPage">
+                    <h1 style="position:relative">DESIGN WORK</h1>
+                    <div id="workRight">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">PILEA, 2022</h3>
+                            <h2 id ="workTopics">UI/UX, APP DESIGN, PROTOTYPING, ICONOGRAPHY</h2>
+                            <h2 id ="workText"><b>Pilea</b> is a plant care app prototype created in Adobe XD. The app allows houseplant owners to add their plants and get reminded when and how they should be cared for. The design utilizes original iconography and illustrations to create a stress-free environment for a sometimes forgetful task.</h2>
+                            <a href="/projects/pilea.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/pilea.png" id="workImage">
                     </div>
-                </div>
-                <div id="workRight">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">RED BEAR FISHING CO, 2022</h3>
-                        <h2 id ="workTopics">GRAPHIC DESIGN, ILLUSTRATION, BRAND DESIGN</h2>
-                        <h2 id ="workText"><b>Red Bear Fishing Co.</b> is a fictional outdoor lifestyle brand. Red Bear specializes in selling outdoor backpacking equipment and clothing. The brand focuses on a playful and adventerous design that reflects their ideals.</h2>
-                        <a href="/projects/redBear.html"><button id="workingButton">VIEW PROJECT</button></a>
+                    <div id="workLeft">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/talkGT.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">TALKGT LOGO, 2022</h3>
+                            <h2 id ="workTopics">LOGO DESIGN, GRAPHIC DESIGN</h2>
+                            <h2 id ="workText"><b>TalkGT.com</b> is a communication website that allows Georgia Tech students to submit posts and requests online. The logo which blends both the school's mascot, Buzz and a message bubble was created to embody the purpose of the website.</h2>
+                            <a href="/projects/talkGT.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
                     </div>
-                    <img src="img/frame.png" id="frame">
-                    <img src="img/redBear.png" id="workImage">
-                </div>
-                <div id="workLeft">
-                    <img src="img/frame.png" id="frame">
-                    <img src="img/tinnedOnTenth.png" id="workImage">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">TINNED ON TENTH, 2022</h3>
-                        <h2 id ="workTopics">LOGO DESIGN, BRAND DESIGN</h2>
-                        <h2 id ="workText"><b>Tinned on Tenth</b> is a fictional company located on NW Tenth Ave in Gainesville, FL. The simple yet friendly logo along with the fish and hook design creates a lettermark that welcomes in the fish lovers of Gainesville.</h2>
-                        <a href="/projects/tinnedOnTenth.html"><button id="workingButton">VIEW PROJECT</button></a>
+                    <div id="workRight">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">RED BEAR FISHING CO, 2022</h3>
+                            <h2 id ="workTopics">GRAPHIC DESIGN, ILLUSTRATION, BRAND DESIGN</h2>
+                            <h2 id ="workText"><b>Red Bear Fishing Co.</b> is a fictional outdoor lifestyle brand. Red Bear specializes in selling outdoor backpacking equipment and clothing. The brand focuses on a playful and adventerous design that reflects their ideals.</h2>
+                            <a href="/projects/redBear.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/redBear.png" id="workImage">
                     </div>
-                </div>
-            </section>
-            <section id="workPage">
-                <h1 style="position:relative">WEB DEV WORK</h1>
-                <div id="workLeft">
-                    <img src="img/studyGenki.png" id="workImage">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">STUDYGENKI, 2023</h3>
-                        <h2 id ="workTopics">JAVASCRIPT, REACT, HTML, CSS</h2>
-                        <h2 id ="workText"><b>studygenki</b> is a web app made in Javascript that allows students to study customized flashcards based on the popular Japanese textbook Genki. Students can pick from a large group of study sets and save their progress.</h2>
-                        <button id="inProgess">IN PROGRESS</button>
+                    <div id="workLeft">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/tinnedOnTenth.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">TINNED ON TENTH, 2022</h3>
+                            <h2 id ="workTopics">LOGO DESIGN, BRAND DESIGN</h2>
+                            <h2 id ="workText"><b>Tinned on Tenth</b> is a fictional company located on NW Tenth Ave in Gainesville, FL. The simple yet friendly logo along with the fish and hook design creates a lettermark that welcomes in the fish lovers of Gainesville.</h2>
+                            <a href="/projects/tinnedOnTenth.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
                     </div>
-                </div>
-                <div id="workRight">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">SPROUT SHOOTER, 2022</h3>
-                        <h2 id ="workTopics"> JAVSCRIPT, HTML, CSS</h2>
-                        <h2 id ="workText"><b>Sprout Shooter</b> is a web game, coded entirely in Javascript and HTML, that can be played on a web browser. All original hand drawn sprites and images. Features a functioning score, level, and sharing feature.</h2>
-                        <a href="https://sproutshooter.com/" target="_blank"><button id="workingButton">VISIT SITE</button></a>
+                </section>
+            </div>
+
+            <div class="mobileWork">
+                <section id="workPage">
+                    <h1 style="position:relative">WEB DEV WORK</h1>
+                    <div id="workLeft">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/programming.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">WEB DEV PORTFOLIO, 2022</h3>
+                            <h2 id ="workTopics">HTML, CSS, JAVASCRIPT, ILLUSTRATION</h2>
+                            <h2 id ="workText"><b>nicolasprothero.com</b> is a website made using HTML, CSS, and some JavaScript, used to showcase my web development and personal programming projects. It features a comforting design with original illustrations that change to reflect the information that the user is hovering over.</h2>
+                            <a href="https://nicolasprothero.com/" target="_blank"><button id="workingButton">VISIT SITE</button></a>
+                        </div>
                     </div>
-                    <img src="img/frame.png" id="frame">
-                    <img src="img/sproutShooter.png" id="workImage">
-                </div>
-                <div id="workLeft">
-                    <img src="img/frame.png" id="frame">
-                    <img src="img/nicHase.png" id="workImage">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">DESIGN PORTFOLIO, 2023</h3>
-                        <h2 id ="workTopics">HTML, CSS, JAVASCRIPT</h2>
-                        <h2 id ="workText"><b>nichase.com</b> is a website that showcases my design and web development work, made using HTML and CSS. The fully responsive design neatly provides relevant information and allows the user to learn more about specific projects and their processes.</h2>
-                        <a href="https://nichase.com/" target="_blank"><button id="workingButton">VISIT SITE</button></a>
+                    <div id="workRight">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/sproutShooter.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">SPROUT SHOOTER, 2022</h3>
+                            <h2 id ="workTopics"> JAVSCRIPT, HTML, CSS</h2>
+                            <h2 id ="workText"><b>Sprout Shooter</b> is a web game, coded entirely in Javascript and HTML/CSS, that can be played on a web browser. All original hand drawn sprites and images. Features a functioning score, level, and sharing feature.</h2>
+                            <a href="https://sproutshooter.com/" target="_blank"><button id="workingButton">VISIT SITE</button></a>
+                        </div>
                     </div>
-                </div>
-                <div id="workRight">
-                    <div id="workInformation">
-                        <h3 id = "workTitle">WEB DEV PORTFOLIO, 2022</h3>
-                        <h2 id ="workTopics">HTML, CSS, JAVASCRIPT, ILLUSTRATION</h2>
-                        <h2 id ="workText"><b>nicolasprothero.com</b> is a website made using HTML, CSS, and some JavaScript, used to showcase my web development and personal programming projects. It features a comforting design with original illustrations that change to reflect the information that the user is hovering over.</h2>
-                        <a href="https://nicolasprothero.com/" target="_blank"><button id="workingButton">VISIT SITE</button></a>
+                    <!-- <a href="/webdev.html"><h3 id = "moreWorkTitle">ARCHIVED WEB DEV WORK</h3></a> -->
+                </section>
+                <section id="workPage">
+                    <h1 style="position:relative">DESIGN WORK</h1>
+                    <div id="workRight">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/pilea.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">PILEA, 2022</h3>
+                            <h2 id ="workTopics">UI/UX, APP DESIGN, PROTOTYPING, ICONOGRAPHY</h2>
+                            <h2 id ="workText"><b>Pilea</b> is a plant care app prototype created in Adobe XD. The app allows houseplant owners to add their plants and get reminded when and how they should be cared for. The design utilizes original iconography and illustrations to create a stress-free environment for a sometimes forgetful task.</h2>
+                            <a href="/projects/pilea.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
                     </div>
-                    <img src="img/frame.png" id="frame">
-                    <img src="img/programming.png" id="workImage">
-                </div>
-                <!-- <a href="/webdev.html"><h3 id = "moreWorkTitle">ARCHIVED WEB DEV WORK</h3></a> -->
-            </section>
+                    <div id="workLeft">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/talkGT.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">TALKGT LOGO, 2022</h3>
+                            <h2 id ="workTopics">LOGO DESIGN, GRAPHIC DESIGN</h2>
+                            <h2 id ="workText"><b>TalkGT.com</b> is a communication website that allows Georgia Tech students to submit posts and requests online. The logo which blends both the school's mascot, Buzz and a message bubble was created to embody the purpose of the website.</h2>
+                            <a href="/projects/talkGT.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
+                    </div>
+                    <div id="workRight">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/redBear.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">RED BEAR FISHING CO, 2022</h3>
+                            <h2 id ="workTopics">GRAPHIC DESIGN, ILLUSTRATION, BRAND DESIGN</h2>
+                            <h2 id ="workText"><b>Red Bear Fishing Co.</b> is a fictional outdoor lifestyle brand. Red Bear specializes in selling outdoor backpacking equipment and clothing. The brand focuses on a playful and adventerous design that reflects their ideals.</h2>
+                            <a href="/projects/redBear.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
+                    </div>
+                    <div id="workLeft">
+                        <img src="img/frame.png" id="frame">
+                        <img src="img/tinnedOnTenth.png" id="workImage">
+                        <div id="workInformation">
+                            <h3 id = "workTitle">TINNED ON TENTH, 2022</h3>
+                            <h2 id ="workTopics">LOGO DESIGN, BRAND DESIGN</h2>
+                            <h2 id ="workText"><b>Tinned on Tenth</b> is a fictional company located on NW Tenth Ave in Gainesville, FL. The simple yet friendly logo along with the fish and hook design creates a lettermark that welcomes in the fish lovers of Gainesville.</h2>
+                            <a href="/projects/tinnedOnTenth.html"><button id="workingButton">VIEW PROJECT</button></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
         </section>
         <section id="footerPage">
             <h5>© 2023 NICOLAS HASE PROTHERO. All rights reserved.</h5>
