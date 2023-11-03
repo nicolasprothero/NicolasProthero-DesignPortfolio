@@ -280,20 +280,29 @@ button {
     display: none;
 }
 
-@media only screen and (min-device-width: 600px) {
-    .mobileWork{display: none;}       
-    .desktopWork {display: block;}
-} 
-
-/* if mobile device max width 480px */
-@media only screen and (max-device-width: 600px) {
-   .mobileWork{display: block;}
-   .desktopWork {display: none;}
+#bannerImage {
+    display: none;
 }
+
+#bannerImageMobile {
+    display: none;
+    height: 30vh;
+    margin: auto;
+}
+
+.mobileWork{display: none;}       
+.desktopWork {display: block;}
+#bannerImage{display: block;}       
+#bannerImageMobile {display: none;}
 
 /** MOBILE DEVICE **/
 
 @media only screen and (max-width: 600px) {
+    .mobileWork {display: block;}
+    .desktopWork {display: none;}
+    #bannerImage{display: none;}       
+    #bannerImageMobile {display: block;}
+
     h1 {
         font-size: 12vw;
     }
@@ -312,6 +321,10 @@ button {
 
     h5 {
         font-size: 2vw;
+    }
+    
+    #bannerImage {
+        width: 85vh;
     }
 
     #aroundImage {
