@@ -86,7 +86,7 @@ a {
 #frontPage {
     padding: 0vh 2vw 1vh 2vw;
     margin: auto;
-    scale: 93%;
+    scale: 90%;
 }
 
 #aroundImage {
@@ -159,7 +159,7 @@ a {
 #workTitle {
     font-family: "trumpsoftpro", sans-serif;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 #moreWorkTitle {
@@ -172,12 +172,12 @@ a {
 }
 
 #workTopics {
-    font-size: 1.2vw;
+    font-size: 1.6vw;
 }
 
 #workText {
     padding: 3vh 0vw 3vh 0vw;
-    font-size: 1.2vw;
+    font-size: 1.6vw;
 }
 
 #footerPage {
@@ -257,8 +257,7 @@ button {
 }
 
 #projectSmallImage {
-    width: 25vw;
-    height: 25vw;
+    height: 20vw;
 }
 
 #projectSmallText {
